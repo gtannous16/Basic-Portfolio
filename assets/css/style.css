@@ -53,7 +53,7 @@ header {
  } 
   nav {
     float: right;
-    position: absolute;
+    position: relative;
     top: 15px;
     right: 250px;
     font-size: 12px;
@@ -62,7 +62,6 @@ header {
 
   #contact {
     float: left;
-    border-right:
   }
 
   img {
@@ -75,7 +74,7 @@ header {
     left:150px; 
     top:100px;
     width: 960px;
-    height:480px;
+    height:500px;
     padding:20px;
     border: 1px solid #cccccc;
     overflow: auto;
@@ -83,6 +82,33 @@ header {
     color: #777777;
     background: #ffffff;
   }
+
+  #contactbox {   
+    position: relative; 
+    left:150px; 
+    top:100px;
+    width: 960px;
+    height:500px;
+    padding:20px;
+    border: 1px solid #cccccc;
+    overflow: auto;
+    clear: both;
+    color: #777777;
+    background: #ffffff;}
+
+  #portfoliobox {
+    position: relative; 
+    left:150px; 
+    top:100px;
+    width: 860px;
+    height:600px;
+    padding:20px;
+    border: 1px solid #cccccc;
+    overflow: auto;
+    clear: both;
+    color: #777777;
+    background: #ffffff;
+  }  
 #hangman {
   position: fixed;
   width:23.4%;
@@ -107,12 +133,12 @@ input[type=text], select, textarea {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   color:#777777;
-  width: 100%; /* Full width */
-  padding: 10px; /* Some padding */  
-  border: 1px solid #ccc; /* Gray border */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 6px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 98%;
+  padding: 5px;  
+  border: 1px solid #ccc; 
+  margin-top: 6px; 
+  margin-bottom: 6px; 
+  resize: vertical;
 }
 
 
