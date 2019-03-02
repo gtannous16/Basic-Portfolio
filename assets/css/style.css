@@ -67,6 +67,8 @@ header {
   img {
       float: left;
       padding: 10px;
+      height:250px;
+      width:250px;
     }
 
   #about {
@@ -123,7 +125,7 @@ header {
     bottom: 0;
     width: 100%;
     border-top: 5px solid #4aaaa5;
-    padding:30px;
+    padding: 20px;
     clear: both;
     background: #666666;
   }
@@ -158,6 +160,23 @@ input[type=submit]:hover {
   border-radius: 5px;
   padding: 8px;
 }
-.portfoliopics {
-  float: none;
+.img-container{
+position:relative;
+text-align: center;
+color:white;
+width:35%;
+float: left;
+
 }
+
+.centered {
+  background-color:#4aaaa5;
+  width: 71%;
+  position: absolute;
+  top: 79%;
+  left:-32%;
+  transform: translate(50%,-50%);
+  color: #ffffff;
+  padding: 10px 3px;
+}
+
