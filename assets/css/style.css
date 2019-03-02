@@ -100,7 +100,7 @@ header {
     position: relative; 
     left:150px; 
     top:100px;
-    width: 860px;
+    width: 960px;
     height:600px;
     padding:20px;
     border: 1px solid #cccccc;
@@ -157,4 +157,7 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   padding: 8px;
+}
+.portfoliopics {
+  float: none;
 }
